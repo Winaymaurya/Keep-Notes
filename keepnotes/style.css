@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Josefin+Sans:wght@400;500&family=Raleway&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0px;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+   
+    /* min-height: 100vh; */;
+    /* flex-direction: column; */
+}
+
+img{
+    height: 45px;
+    width: 45px;
+    
+
+}
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+.head{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    padding-left: 30px;
+    background-color: rgba(243, 243, 105, 0.822);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 6px rgb(112, 90, 90);
+}
+#text{
+    padding: 5px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+/* add notes buton */
+#add{
+    display: flex;
+    margin: 10px 30px;
+    padding: 7px;
+    /* border: 1px solid bl; */
+    height: 30px;
+    width: 130px;
+
+    /* background-color:rgb(219, 244, 157); */
+    border-bottom: 2px solid black;
+    /* border-right: 2px solid black ; */
+    border-radius: 10px;
+    transition: .1s ;
+    cursor: pointer;
+}
+#add:hover{
+    /* border-radius: 20px; */
+    /* border: none; */
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  /* background-color: rgb(42, 157, 206); */
+  /* color: white; */
+  /* transform:scale(1.09); */
+}
+
+#icon img{
+    height: 29px;
+    width: 29px;
+    transition: .7s;
+}
+#icon img:hover{
+    transform: rotate( 90deg) scale(1.1);
+    border-radius: 20px;
+    /* background-color: rgb(42, 157, 206);  */
+
+}
+#notes{
+    margin:4px 6px;
+}
+.wid{
+    width: 100%;
+}
+
+/* notes */
+
+.no{
+    border: 2px solid black;
+    height: 250px; 
+    padding: 10px;
+    margin: 20px 20px;
+    width: 250px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#credit{
+    margin-top: 25px;
+    margin-left: 4px;
+    margin-right: auto;
+}
+.opr{
+    /* flex-direction: ; */
+    /* margin: 4px 10px; */
+    border-bottom: 2px solid black;
+}
+button{
+    border-style: none;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+button img{
+    height: 25px;
+    padding: 4px;
+    width: 25px;
+    /* border: none; */
+}
+#del img:hover{
+    transform: scale(1.08);
+    border-radius: 17px;
+    background-color: rgb(255, 106, 106);
+}
+#edit img:hover{
+    transform: scale(1.15);
+}
+#textarea,  #main{
+    margin-top: 7px;
+}
+textarea {
+    border: none;
+    padding: 6px;
+    font-size: 18px;
+}
+#main{
+    height: 500px;
+    width: 230px;
+    background-color: rgba(237, 247, 95, 0.228);
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600px;
+    letter-spacing: 1.8px;
+}
+
+.hide{
+    display: none;
+}
+
+/* fotter */
+
+/* .copyr{
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    background: #000;
+    color: white;
+    position: sticky;
+    top: 100vh;
+}  */
